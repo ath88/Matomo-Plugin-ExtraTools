@@ -27,4 +27,4 @@ jobs:
           context: .
           file: Containerfile
           push: true
-          tags: ath88-matomo-plugin-extratools:stable
+          tags: ghcr.io/ath88/matomo-plugin-extratools:stable
