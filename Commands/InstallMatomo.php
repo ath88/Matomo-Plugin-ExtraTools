@@ -328,12 +328,12 @@ Example:
         }
 
         if ($force === true) {
-            if ($dontdropdb === false) {
-                $drop = new Drop($config, $output, $this->silent);
-                $drop->execute();
-                $create = new Create($config, $output, $this->silent);
-                $create->execute();
-            }
+            // if ($dontdropdb === false) {
+            //     $drop = new Drop($config, $output, $this->silent);
+            //     $drop->execute();
+            //     $create = new Create($config, $output, $this->silent);
+            //     $create->execute();
+            // }
             $install = new Install($options, $output, $file_config);
             if ($this->silent !== true) {
                 $output->writeln("<info><comment>Installing Matomo</comment></info>");
