@@ -5,13 +5,13 @@ on:
     branches: [ "5.x-dev" ]
   pull_request:
     branches: [ "5.x-dev" ]
+permissions:
+  contents: read
+  packages: write
 
 jobs:
   build-and-push-image:
     runs-on: ubuntu-latest
-    permissions:
-      contents: read
-      packages: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
