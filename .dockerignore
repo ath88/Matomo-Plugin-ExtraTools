@@ -1,0 +1,16 @@
+*
+
+!plugin.json
+!Menu.php
+!catalog-info.yaml
+!API.php
+!CHANGELOG.md
+!README.md
+!LICENSE.md
+!ExtraTools.php
+!Controller.php
+!composer.json
+!composer.lock
+!Commands
+!lang
+!Lib
